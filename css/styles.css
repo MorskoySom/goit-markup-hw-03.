@@ -1,0 +1,204 @@
+:root {
+  /* COLORS styles */
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-dairy: #fcfcfc;
+  --white-color: #fff;
+
+  /* Fonts styles */
+  --primary-font: "Roboto";
+  --secondary-font: "Raleway";
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--white-color);
+}
+
+/* Base */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.headlines {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+.some-titles {
+  text-align: center;
+}
+
+.items-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.small-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-slate);
+}
+
+/* WAREHOSE */
+
+/* Header section */
+
+.link-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.address-link-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--color-slate);
+}
+
+.links-header {
+  font-weight: 500;
+  color: var(--color-navy-blue);
+}
+
+.link-address {
+  color: var(--color-slate);
+}
+
+.logo-font {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris-color);
+}
+
+.logo-link {
+  color: var(--color-navy-blue);
+}
+.hed-link-active:hover,
+.hed-link-active:focus {
+  color: var(--ocean-color);
+}
+
+/* hero section*/
+
+.hero {
+  background-color: var(--color-navy-blue);
+}
+
+.hero-headline {
+  color: var(--white-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--iris-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+/* Skills section */
+
+.skills-title {
+  font-weight: 500;
+}
+
+/* Doings section */
+
+/* Team section */
+
+.team-color {
+  background-color: var(--color-cloud);
+}
+
+.team-color-list {
+  background-color: var(--white-color);
+}
+
+/* Footer block */
+
+.logo-link-footer {
+  color: var(--color-cloud);
+}
+
+.link-footer {
+  color: var(--color-cloud);
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-text {
+  color: var(--color-cloud);
+}
+.footer-color {
+  background-color: var(--color-navy-blue);
+}
+
+/* Portfolio buttons row section */
+.btn-row {
+  color: var(--iris-color);
+  background-color: var(--color-cloud);
+  border-style: none;
+}
+.btn-row-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.btn-row:hover,
+.btn-row:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+/* Done projects */
